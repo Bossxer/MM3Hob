@@ -12,6 +12,6 @@ end
 
 function RevolverDroppedCheck()
    if game.Workspace:FindFirstChild("RevolverPickUp") ~= nil then
-        game.Workspace.RevolverPickUp.Orb.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        return true
     end
 end
